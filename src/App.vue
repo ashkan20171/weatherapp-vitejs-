@@ -3,9 +3,11 @@
 <div class="card" style="width: 18rem;">
   <img src="./assets/city.jpg" class="card-img-top" alt="...">
   <div class="card-body">
-    <h5 class="card-title">Card title</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary">Go somewhere</a>
+    <div class="input-group mb-3">
+  <button class="btn btn-primary" type="button" id="button-addon1">ارسال</button>
+  <input type="text" class="form-control" placeholder="اسم شهر را وارد کنید" aria-label="Example text with button addon" aria-describedby="button-addon1">
+     </div>
+    <p class="card-text"></p>
   </div>
 </div>
 </div>
